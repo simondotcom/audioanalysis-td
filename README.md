@@ -19,7 +19,10 @@ Last output is the audio spectrum (you can choose the resolution in the paramete
 
 HOW TO USE : 
 
-- smoothing parameter : smooths the signal coming out of different filters.
+- smoothing : smooths the signal coming out of different filters.
+  - effect : proportion of smoothed signal added to the dry signal (dry/wet)
+  - width : size (in seconds) of the smoothing. 0.2 is a good one to start with (depending on what you want).
+! Be careful because increasing width too much will create a latency between the signal and the audio !
 
 - frequencies : use it to modify filters frequencies according to your needs and depending on the music that goes in.
 
